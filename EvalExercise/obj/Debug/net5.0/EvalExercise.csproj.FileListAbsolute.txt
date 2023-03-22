@@ -1,0 +1,16 @@
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\bin\Debug\net5.0\EvalExercise.exe
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\bin\Debug\net5.0\EvalExercise.deps.json
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\bin\Debug\net5.0\EvalExercise.runtimeconfig.json
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\bin\Debug\net5.0\EvalExercise.runtimeconfig.dev.json
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\bin\Debug\net5.0\EvalExercise.dll
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\bin\Debug\net5.0\ref\EvalExercise.dll
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\bin\Debug\net5.0\EvalExercise.pdb
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\obj\Debug\net5.0\EvalExercise.csproj.AssemblyReference.cache
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\obj\Debug\net5.0\EvalExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\obj\Debug\net5.0\EvalExercise.AssemblyInfoInputs.cache
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\obj\Debug\net5.0\EvalExercise.AssemblyInfo.cs
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\obj\Debug\net5.0\EvalExercise.csproj.CoreCompileInputs.cache
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\obj\Debug\net5.0\EvalExercise.dll
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\obj\Debug\net5.0\ref\EvalExercise.dll
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\obj\Debug\net5.0\EvalExercise.pdb
+C:\Users\Cem\source\repos\EvalExercise\EvalExercise\obj\Debug\net5.0\EvalExercise.genruntimeconfig.cache
