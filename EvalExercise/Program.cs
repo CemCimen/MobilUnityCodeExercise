@@ -15,7 +15,6 @@ namespace InfixToPostfix
     {
         static void Main(string[] args)
         {
-            var imp = new Implementation();
             string input = "((1+(2*x)+1)*(x+1))";
             string PostfixResult = InfixToPostFixConverter.InfixToPostfix(input);
             Console.WriteLine(PostfixResult);

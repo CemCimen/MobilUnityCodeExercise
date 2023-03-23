@@ -15,7 +15,7 @@ namespace EvalExercise
             {'-', 1},
             {'*', 2},
             {'^', 3},
-            {'(', 0}, // this may not be necessary but just in case
+            {'(', 0}, // This may not be necessary but just in case
             {')', 0},
             // Add a default value of -1 for unknown operators
             {'#', -1}
