@@ -10,40 +10,50 @@ namespace EvalExercise
     {
         public static double Evaluate(string expression)
         {
-            Stack<double> stack = new Stack<double>();
 
-            foreach (string token in expression.Split(' '))
+            try
             {
-                if (double.TryParse(token, out double value))
+                Stack<double> stack = new Stack<double>();
+                expression = expression.TrimEnd(' ');
+                foreach (string token in expression.Split(' '))
                 {
-                    stack.Push(value);
-                }
-                else
-                {
-                    double operand2 = stack.Pop();
-                    double operand1 = stack.Pop();
-
-                    switch (token)
+                    if (double.TryParse(token, out double value))
                     {
-                        case "+":
-                            stack.Push(operand1 + operand2);
-                            break;
-                        case "-":
-                            stack.Push(operand1 - operand2);
-                            break;
-                        case "*":
-                            stack.Push(operand1 * operand2);
-                            break;
-                        case "^":
-                            stack.Push(Math.Pow(operand1, operand2));
-                            break;
-                        default:
-                            throw new ArgumentException($"Invalid token: {token}");
+                        stack.Push(value);
+                    }
+                    else
+                    {
+                        double operand2 = stack.Pop();
+                        double operand1 = stack.Pop();
+
+
+                        switch (token)
+                        {
+                            case "+":
+                                stack.Push(operand1 + operand2);
+                                break;
+                            case "-":
+                                stack.Push(operand1 - operand2);
+                                break;
+                            case "*":
+                                stack.Push(operand1 * operand2);
+                                break;
+                            case "^":
+                                stack.Push((Math.Pow(operand1, operand2)));
+                                break;
+                            default:
+                                throw new ArgumentException($"Invalid token: {token}");
+                        }
                     }
                 }
+                return stack.Pop();
+
             }
 
-            return stack.Pop();
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid expression!!!");
+            }
         }
     }
 

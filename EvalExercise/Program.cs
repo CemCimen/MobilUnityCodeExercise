@@ -13,12 +13,18 @@ namespace InfixToPostfix
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            string input = "((1+(2*x)+1)*(x+1))";
-            string PostfixResult = InfixToPostFixConverter.InfixToPostfix(input);
-            Console.WriteLine(PostfixResult);
-            //PostfixEvaluator.Evaluate(PostfixResult);
+            Console.WriteLine("Please enter your expression");
+            string expression = Console.ReadLine();
+            if (expression.Contains("x"))
+            {
+                Console.WriteLine("Please enter your variable's value");
+                string x = Console.ReadLine();
+                Console.WriteLine(PostfixEvaluator.Evaluate(InfixToPostFixConverter.InfixToPostfixConversion(expression.Replace("x", x))));
+            }
+            else
+                Console.WriteLine(PostfixEvaluator.Evaluate(InfixToPostFixConverter.InfixToPostfixConversion(expression)));
         }
     }
 }
